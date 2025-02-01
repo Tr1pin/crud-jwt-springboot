@@ -18,20 +18,19 @@ crud-jwt-springboot/
 │
 ├── ProyectoConSeguridad/
 │   ├── src/
-│        ├── main/
-│        │   └── java/
-│        │          ├── config/                                # Configuraciones de la aplicación y configuración de seguridad JWT
-│        │          ├── controller/                            # Controladores (endpoints)
-│        │          ├── dto/                                   # Objetos de transferencia de datos (DTOs)
-│        │          ├── model/                                 # Entidades (modelos de la base de datos)
-│        │          ├── repository/                            # Repositorios (acceso a la base de datos)
-│        │          ├── service/                               # Lógica de negocio (servicios)
-|        |          ├── validation/                            # Validaciones personalizadas
-│        │          └── ProyectoConSeguridadApplication.java   # Clase principal de la aplicación
-│        └── resources/
-│           ├── application.properties                         # Configuración de la aplicación
-|
+│   │   ├── main/
+│   │   │   └── java/
+│   │   │       ├── config/                                # Configuraciones de la aplicación y configuración de seguridad JWT
+│   │   │       ├── controller/                            # Controladores (endpoints)
+│   │   │       ├── dto/                                   # Objetos de transferencia de datos (DTOs)
+│   │   │       ├── model/                                 # Entidades (modelos de la base de datos)
+│   │   │       ├── repository/                            # Repositorios (acceso a la base de datos)
+│   │   │       ├── service/                               # Lógica de negocio (servicios)
+│   │   │       ├── validation/                            # Validaciones personalizadas
+│   │   │       └── ProyectoConSeguridadApplication.java   # Clase principal de la aplicación
+│   │   └── resources/
+│   │       ├── application.properties                     # Configuración de la aplicación
 │
-├── .gitignore                     
-├── pom.xml                               
-└── README.md     
+├── .gitignore                                             # Archivos y carpetas ignorados por Git
+├── pom.xml                                                # Configuración de Maven (dependencias)
+└── README.md                                              # Este archivo  
