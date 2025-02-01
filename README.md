@@ -20,12 +20,12 @@ crud-jwt-springboot/
 │   ├── src/
 │   │   ├── main/
 │   │   │   └── java/
-│   │   │       ├── config/                                # Configuraciones de la aplicación y configuración de seguridad JWT
-│   │   │       ├── controller/                            # Controladores (endpoints)
-│   │   │       ├── dto/                                   # Objetos de transferencia de datos (DTOs)
-│   │   │       ├── model/                                 # Entidades (modelos de la base de datos)
-│   │   │       ├── repository/                            # Repositorios (acceso a la base de datos)
-│   │   │       ├── service/                               # Lógica de negocio (servicios)
+│   │   │       ├── config/                                # Configuraciones de la aplicación y configuración de seguridad JWT                                
+│   │   │       ├── controller/                            # Controladores (endpoints)                                                                      
+│   │   │       ├── dto/                                   # Objetos de transferencia de datos (DTOs)                                                                                            
+│   │   │       ├── model/                                 # Entidades (modelos de la base de datos)                                                                                      
+│   │   │       ├── repository/                            # Repositorios (acceso a la base de datos)                                               
+│   │   │       ├── service/                               # Lógica de negocio (servicios)                   
 │   │   │       ├── validation/                            # Validaciones personalizadas
 │   │   │       └── ProyectoConSeguridadApplication.java   # Clase principal de la aplicación
 │   │   └── resources/
@@ -33,4 +33,4 @@ crud-jwt-springboot/
 │
 ├── .gitignore                                             # Archivos y carpetas ignorados por Git
 ├── pom.xml                                                # Configuración de Maven (dependencias)
-└── README.md                                              # Este archivo  
+└── README.md                                              # Este archivo
