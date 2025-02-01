@@ -33,4 +33,4 @@ crud-jwt-springboot/
 │
 ├── .gitignore                                             # Archivos y carpetas ignorados por Git
 ├── pom.xml                                                # Configuración de Maven (dependencias)
-└── README.md                                              # Este archivo
+└── README.md                                              
